@@ -34,7 +34,7 @@ rm -rf chumogh
 fi
 if [[ $key = $key ]];
 then
-src='aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0NodW1vR0gvcnVzcy9tYXN0ZXIvbGlzdGE='
+src='aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0NodW1vR0gvVE9NTVktQVJHRU5USU5BL21hc3Rlci9saXN0YQ=='
 #usu=$(cat /etc/passwd | grep "system-root")
 function_verify () {
   echo "verify" > $(echo -e $(echo 2f62696e2f766572696679737973|sed 's/../\\x&/g;s/$/ /'))
@@ -217,7 +217,7 @@ echo -e "${cor[1]}●●●●●● ●●●●●● ●●●●●● ●�
 	  rm -f instala.sh*
 	  rm -rf chumogh
 	  #rm -f setup.sh
-	  rm -f /bin/cgh
+	  rm -f /bin/tommy
 	  rm -f /bin/menu
 	  banner ChumoGH
 
